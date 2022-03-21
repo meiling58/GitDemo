@@ -1,20 +1,20 @@
 # GitDemo Use CMD -- push Project to Github
 # Step1 : Configure <a name="Step1"/>
-## C:\Users\nttsa>git config --global user.name "Mei-Ling Liang" 
-## C:\Users\nttsa>git config --global user.email "meiling.liang58@gmail.com"
+C:\Users\nttsa>git config --global user.name "Mei-Ling Liang" 
+C:\Users\nttsa>git config --global user.email "meiling.liang58@gmail.com"
 # Step2: cd ProjectFoloder and init repos
-  C:\Users\nttsa>cd GitStuff
-  C:\Users\nttsa\GitStuff>git init
-  Initialized empty Git repository in C:/Users/nttsa/GitStuff/.git/
+C:\Users\nttsa>cd GitStuff
+C:\Users\nttsa\GitStuff>git init
+Initialized empty Git repository in C:/Users/nttsa/GitStuff/.git/
 # Step3: Staging Project --add 
-  C:\Users\nttsa\GitStuff>git add *
-  C:\Users\nttsa\GitStuff>git status
-  On branch master
-  No commits yet
+C:\Users\nttsa\GitStuff>git add *
+C:\Users\nttsa\GitStuff>git status
+On branch master
+No commits yet
 # Step4: Staging Project --commit
-  C:\Users\nttsa\GitStuff>git commit -m "init commit"
-  [master (root-commit) 4e50ed6] init commit
-   56 files changed, 2056 insertions(+)
+C:\Users\nttsa\GitStuff>git commit -m "init commit"
+[master (root-commit) 4e50ed6] init commit
+ 56 files changed, 2056 insertions(+)
 # Step5: romote and push to GitHub 
   C:\Users\nttsa\GitStuff>git remote add origin https://github.com/meiling58/GitDemo.git
   (will need to sign in GitHub use Browse or password) 

@@ -1,7 +1,7 @@
 # GitDemo Use CMD -- push Project to Github
-# Step1 : Configure 
-  # C:\Users\nttsa>git config --global user.name "Mei-Ling Liang"
-  # C:\Users\nttsa>git config --global user.email "meiling.liang58@gmail.com"
+# Step1 : Configure <a name="Step1"/>
+  ## C:\Users\nttsa>git config --global user.name "Mei-Ling Liang" 
+  ## C:\Users\nttsa>git config --global user.email "meiling.liang58@gmail.com"
 # Step2: cd ProjectFoloder and init repos
   C:\Users\nttsa>cd GitStuff
   C:\Users\nttsa\GitStuff>git init

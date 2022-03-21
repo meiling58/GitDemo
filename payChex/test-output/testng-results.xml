@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T09:32:19 EST" name="Default suite" finished-at="2022-02-08T09:32:26 EST" duration-ms="6441">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T09:32:19 EST" name="Default test" finished-at="2022-02-08T09:32:26 EST" duration-ms="6441">
+      <class name="functional_tests.ST_PAYCHEX">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:functional_tests.ST_PAYCHEX@117bcfdc]" started-at="2022-02-08T09:32:19 EST" name="setUp" finished-at="2022-02-08T09:32:22 EST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Test_001_Home()[pri:0, instance:functional_tests.ST_PAYCHEX@117bcfdc]" started-at="2022-02-08T09:32:22 EST" name="Test_001_Home" finished-at="2022-02-08T09:32:25 EST" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_001_Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:functional_tests.ST_PAYCHEX@117bcfdc]" started-at="2022-02-08T09:32:25 EST" name="tearDown" finished-at="2022-02-08T09:32:26 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functional_tests.ST_PAYCHEX -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
